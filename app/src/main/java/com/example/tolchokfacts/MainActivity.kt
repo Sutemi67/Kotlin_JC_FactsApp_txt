@@ -60,6 +60,7 @@ fun Facts() {
         else -> "Ты лучший. Не только в доте."
     }
 
+
     var counter by remember { mutableStateOf(0) }
     val counterRandom = (Math.random() * 9).toInt()
 //    var achievementCounter by remember { mutableStateOf(0)}
